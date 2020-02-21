@@ -16,56 +16,56 @@ http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3
 
 #EXTINF:0 group-title="Documentary",
 #EXTINF:0 tvg-id="675" tvg-logo="moya-planeta.jpg",Моя Планета
-https://github.com/edwin61a/test/raw/master/channels/ru.03_moyaplaneta.00.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.03_moyaplaneta.00.m3u8
 
 #EXTINF:0 tvg-id="1793",Неизвестная Планета
 http://serv25.vintera.tv:8081/neplaneta/np/playlist.m3u8
 
 
 #EXTINF:0 tvg-id="304" tvg-logo="domashniy.jpg",Домашний
-https://github.com/edwin61a/test/raw/master/channels/ru.17_Domashniy.0.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.17_Domashniy.0.m3u8
 
 #EXTINF:0 tvg-id="79" tvg-logo="sts.jpg",СТС
-https://github.com/edwin61a/test/raw/master/channels/ru.11_STS.0.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.11_STS.0.m3u8
 
 #EXTINF:0 tvg-id="173" tvg-logo="telecafe.png",Телекафе
-https://github.com/edwin61a/test/raw/master/channels/ru.12_telekafe.0.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.12_telekafe.0.m3u8
 
 #EXTINF:0 tvg-id="649" tvg-logo="tv-centr.jpg",ТВЦ
-https://github.com/edwin61a/test/raw/master/channels/ru.99.TVC.00.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.99.TVC.00.m3u8
 
 #EXTINF:0 tvg-id="137" tvg-logo="ntv.jpg",НТВ
-https://github.com/edwin61a/test/raw/master/channels/ru.14_NTV.0.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.14_NTV.0.m3u8
 
 #EXTINF:0 tvg-id="689" tvg-logo="ren-tv.jpg",РЕН ТВ
-https://github.com/edwin61a/test/raw/master/channels/ru03/13.rentv.0.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru03/13.rentv.0.m3u8
 
 #EXTINF:0 tvg-id="1791" tvg-logo="tnt-online.jpg",ТНТ
-https://github.com/edwin61a/test/raw/master/channels/ru.16_TNT.0.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.16_TNT.0.m3u8
 
 #EXTINF:0 tvg-id="279" tvg-logo="tv-3.jpg",ТВ-3
-https://github.com/edwin61a/test/raw/master/channels/ru.18_TV-3.0.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.18_TV-3.0.m3u8
 
 #EXTINF:0 tvg-id="898" tvg-logo="yu-tv.jpg",Ю
-https://github.com/edwin61a/test/raw/master/channels/ru.19_YU.0.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.19_YU.0.m3u8
 
 #EXTINF:0 tvg-id="1598" tvg-logo="che.jpg",Че
-https://github.com/edwin61a/test/raw/master/channels/ru.20_Che.0.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.20_Che.0.m3u8
 
 #EXTINF:0 tvg-id="427" tvg-logo="5kanal-ru.png",Пятый Канал
-https://github.com/edwin61a/test/raw/master/channels/ru.99_pyatniy-kanal.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.99_pyatniy-kanal.m3u8
 
 #EXTINF:0 tvg-id="1000" tvg-logo="otr.png",ОТР
-https://github.com/edwin61a/test/raw/master/channels/ru.99_OTR.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.99_OTR.m3u8
 
 #EXTINF:0 tvg-id="1003" tvg-logo="pyatnica.jpg",Пятница
-https://github.com/edwin61a/test/raw/master/channels/ru.99_pyatnitsa.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.99_pyatnitsa.m3u8
 
 #EXTINF:0 tvg-id="405" tvg-logo="zvezda.jpg",Звезда
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 
 #EXTINF:0 tvg-id="1810" tvg-logo="super-1.png" group-title="Обо всем",Супер
-https://github.com/edwin61a/test/raw/master/channels/ru.99_super.00.m3u8
+https://raw.githubusercontent.com/edwin61a/test/master/channels/ru.99_super.00.m3u8
 
 #EXTINF:0 tvg-id="371" tvg-logo="rossiya-k.jpg",Россия Культура
 http://a1566400114-s26881.cdn.ngenix.net/live/smil:rk.smil/variant.m3u8
