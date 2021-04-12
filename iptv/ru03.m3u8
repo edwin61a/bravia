@@ -131,14 +131,27 @@ https://wfcint.mediacdn.ru/cdn/wfcint/playlist.m3u8
 http://idfashion-hls3.cosmonova.net.ua/hls/idfashion_ua_hi/index.m3u8
 #EXTINF:0 group-title="мода;Украина;Германия" tvg-id="hdfashion-lifestyle" tvg-logo="https://epg.iptvx.one/icn/hdfashion-lifestyle.png",HD Fashion & Lifestyle
 http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8
+#EXTINF:0 group-title="мода" tvg-id="661" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png",FashionTV Paris
+# https://fash1043.cloudycdn.services/slive/_definst_/ftv_pg13_adaptive.smil/media.m3u8
+# https://fash1043.cloudycdn.services/slive/_definst_/ftv_pg13_adaptive.smil/playlist.m3u8
 #EXTINF:0 group-title="мода" tvg-id="661" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png",FashionTV International
 #EXTVLCOPT:http-referrer=https://www.fashiontv.com/
-https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_pg13_zw9_27065_ftv_pg13_196_hls.smil/media.m3u8
-# https://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/media.m3u8
-#EXTINF:0 group-title="Fashion;мода" tvg-id="fashion-tv-eu" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png",Fashion TV Europe
+# https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_pg13_zw9_27065_ftv_pg13_196_hls.smil/media.m3u8
+https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_pg13_zw9_27065_ftv_pg13_196_hls.smil/playlist.m3u8
+#EXTINF:0 group-title="мода" tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png",Fashion TV USA
 #EXTVLCOPT:http-referrer=https://www.fashiontv.com/
-# https://fash1043.cloudycdn.services/slive/_definst_/ftv_pg13_adaptive.smil/media.m3u8
-#EXTINF:0 group-title="Fashion;мода" tvg-id="0" tvg-logo="https://www.fulltv24.com/files/image/global-fashion-channel-us.png",Global Fashion Channel
+https://fash2043.cloudycdn.services/slive/_definst_/ftv_ftv_gmt_-5_qko_43090_default_1225_hls.smil/playlist.m3u8
+#EXTINF:0 group-title="мода" tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png",Fashion TV Asia
+#EXTVLCOPT:http-referrer=https://www.fashiontv.com/
+https://fash2043.cloudycdn.services/slive/_definst_/ftv_ftv_asia_ada_xiv_42149_default_137_hls.smil/playlist.m3u8
+#EXTINF:0 group-title="мода" tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png",Fashion TV Africa 2
+#EXTVLCOPT:http-referrer=https://www.fashiontv.com/
+https://fash2043.cloudycdn.services/slive/_definst_/ftv_ftv_africa_2_s6g_43071_default_1204_hls.smil/playlist.m3u8
+#EXTINF:0 group-title="мода" tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png",FashionTV
+#EXTVLCOPT:http-referrer=https://www.fashiontv.com/
+# https://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/media.m3u8
+https://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/playlist.m3u8
+#EXTINF:0 group-title="мода" tvg-id="0" tvg-logo="https://www.fulltv24.com/files/image/global-fashion-channel-us.png",Global Fashion Channel
 https://vcngfc1.teleosmedia.com/stream/globalfashionchannel/globalfashionchannel/playlist.m3u8
 
 ### News / Weather

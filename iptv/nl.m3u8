@@ -1,0 +1,10 @@
+#EXTM3U
+### Radio
+#EXTINF:0 group-title="radio" tvg-chno="901",Radio NL
+# https://www.onlineluisteren.nl/radio-veronica-luisteren.html
+#EXTINF:0 radio="true" tgv-id="" tvg-logo="https://qmusic.nl/assets/qmusic-a1d81a5f88375b3c5507cbc0b064ce1fc8778a076a245bddfd4f2a3e2417c330.png",Q music
+https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live_32.aac
+#EXTINF:0 radio="true" tgv-id="" tvg-logo="https://www.radiozenders.fm/media/images/stations-large/radio-veronica.png",VERONICA
+# https://playerservices.streamtheworld.com/api/livestream-redirect/VERONICA.mp3
+https://21283.live.streamtheworld.com:443/VERONICA.mp3
+
