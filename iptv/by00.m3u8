@@ -1,0 +1,6 @@
+#EXTM3U
+## tvguide: http://programtv.ru/xlmtv.xml.gz
+
+#EXTVLCOPT:http-referrer=http://belros.tv/
+#EXTINF:0 group-title="Беларусь;Развлечения" tvg-id="730" tvg-logo="http://belros.tv/local/templates/2019/img/logo.png",БелРос / ТРО Союза
+https://live.mediacdn.ru/sr1/tro/playlist.m3u8
