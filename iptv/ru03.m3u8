@@ -45,6 +45,7 @@ http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/variant.m3u8
 # https://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8, https://cl-1b25e6e4.gcdn.co/hls/russia_24/playlist.m3u8
 # https://www.youtube.com/watch?v=8T9SFZDP60Q
 #EXTINF:0 group-title="Россия" tvg-id="334" tvg-logo="https://iptvx.one/icn/moskva-24.png",Москва 24
+# http://cdnmg.secure.live.rtr-vesti.ru/live/smil:m24.smil/variant.m3u8
 # https://a1566400114-s26881.cdn.ngenix.net/live/smil:m24.smil/variant.m3u8
 # https://a3569456481-s26881.cdn.ngenix.net/live/smil:m24.smil/variant.m3u8
 # https://www.youtube.com/watch?v=NH7wu_O0hMc
