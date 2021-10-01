@@ -8,6 +8,7 @@
 #KODIPROP:inputstream.adaptive.is_realtime_stream=true
 https://edge1.1internet.tv/dash-live11/streams/1tv/1tvdash1.mpd
 # https://cdn2.1internet.tv/dash-live11/streams/1tv/1tvdash1.mpd
+# https://cdn10.1internet.tv/dash-live11/streams/1tv/1tvdash1.mpd
 # /storage/emulated/0/Downloads/iptv/channels/ru03/01.perviy_HD.00.m3u8
 
 #EXTINF:0 group-title="Россия" tvg-id="317" tvg-logo="https://iptvx.one/icn/rossia1.png",Россия 1
@@ -18,9 +19,11 @@ http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist.m3u8
 
 
 #EXTINF:0 group-title="Россия" tvg-id="447" tvg-logo="http://spastv.ru/wp-content/uploads/2018/07/logo-1.png",Спас ТВ
-#EXTVLCOPT:http-referrer=
+#EXTVLCOPT:http-referrer=http://spastv.ru/
 https://mediavitrina6.cdn.gblnet.ru/dash-live1/streams/spas/spas.mpd
+# https://mediavitrina6.cdn.gblnet.ru/dash-live1/streams/spas/spas-frag10m-audio-1-20210908T102337_000399449.mp4
 # https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
+# http://spastv.ru/playlist.m3u8
 
 #EXTINF:0 group-title="Россия" tvg-id="349" tvg-logo="https://tv-soyuz.ru/static/img/logo.png",Союз
 #EXTVLCOPT:http-referrer=https://tv-soyuz.ru/tvprogramma
@@ -34,17 +37,18 @@ http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/variant.m3u8
 # https://a3569456481-s26881.cdn.ngenix.net/live/smil:mplan.smil/variant.m3u8
 
 
-#EXTINF:0 group-title="Россия" tvg-id="1683" tvg-logo="https://iptvx.one/icn/rossia24.png",Россия 24
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/variant.m3u8
-# https://a1566400114-s26881.cdn.ngenix.net/live/smil:r24.smil/variant.m3u8
-#EXTINF:0 group-title="Россия" tvg-id="371" tvg-logo="https://iptvx.one/icn/rossia-k.png",Россия Культура
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rk.smil/variant.m3u8
-# https://a1566400114-s26881.cdn.ngenix.net/live/smil:rk.smil/variant.m3u8
 #EXTINF:0 group-title="Россия" tvg-id="0" tvg-logo="https://iptvx.one/icn/rtr-planeta.png",Россия РТР
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/variant.m3u8
 # https://a3569458063-s26881.cdn.ngenix.net/live/smil:rtrp.smil/variant.m3u8
 # https://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8, https://cl-1b25e6e4.gcdn.co/hls/russia_24/playlist.m3u8
 # https://www.youtube.com/watch?v=8T9SFZDP60Q
+#EXTINF:0 group-title="Россия" tvg-id="371" tvg-logo="https://iptvx.one/icn/rossia-k.png",Россия Культура
+https://a1566400114-s26881.cdn.ngenix.net/live/smil:rk.smil/variant.m3u8
+# http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rk.smil/variant.m3u8
+# https://a1566400114-s26881.cdn.ngenix.net/live/smil:rk.smil/variant.m3u8
+#EXTINF:0 group-title="Россия" tvg-id="1683" tvg-logo="https://iptvx.one/icn/rossia24.png",Россия 24
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/variant.m3u8
+# https://a1566400114-s26881.cdn.ngenix.net/live/smil:r24.smil/variant.m3u8
 #EXTINF:0 group-title="Россия" tvg-id="334" tvg-logo="https://iptvx.one/icn/moskva-24.png",Москва 24
 # http://cdnmg.secure.live.rtr-vesti.ru/live/smil:m24.smil/variant.m3u8
 # https://a1566400114-s26881.cdn.ngenix.net/live/smil:m24.smil/variant.m3u8
@@ -138,10 +142,6 @@ https://mob3-ntv.cdnvideo.ru/ntv3/smil:ntvair003_hd.smil/playlist.m3u8?e=1633645
 # https://mob3-ntv.cdnvideo.ru/ntv/smil:ntvair13.smil/playlist.m3u8?e=1620310151&md5=lgGSKszCQbESHDWJ3b1B0w
 
 
-#EXTINF:0 group-title="Россия" tvg-id="0" tvg-logo="https://iptvx.one/icn/nastoiaschee-vremia.png",Настоящее Время
-#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=8T9SFZDP60Q
-plugin://plugin.video.youtube/play/?video_id=8T9SFZDP60Q
-
 #EXTINF:0 group-title="Россия" tvg-id="933" tvg-logo="https://tnv.ru/local/static/favicons/android-icon-192x192.png",ТНВ Планета
 #EXTVLCOPT:http-referrer=https://tnv.ru/online/?ID=3609
 http://tnv.bonus-tv.ru/cdn/tnvplanet/playlist.m3u8
@@ -191,7 +191,13 @@ https://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:0 group-title="Россия" tvg-id="23" tvg-logo="https://iptvx.one/icn/euronews-en.png",Евроновости
 #EXTVLCOPT:http-referrer=https://ru.euronews.com/live
 https://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
+#EXTINF:0 group-title="Россия" tvg-id="23" tvg-logo="https://iptvx.one/icn/euronews-en.png",Евроновости
 #EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=WiB69tJIAU4
+# plugin://plugin.video.youtube/play/?video_id=WiB69tJIAU4
+#EXTINF:0 group-title="Россия" tvg-id="0" tvg-logo="https://iptvx.one/icn/nastoiaschee-vremia.png",Настоящее Время
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=8T9SFZDP60Q
+plugin://plugin.video.youtube/play/?video_id=8T9SFZDP60Q
+
 
 #EXTINF:0 group-title="News" tvg-id="cnn" tvg-logo="https://epg.iptvx.one/icn/cnn.png",CNN
 # https://cnnlive.warnermediacdn.com/hls/live/2011591/PROD-cnnlive0/de/master.m3u8?__b__=650
@@ -234,15 +240,20 @@ https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 # https://ad-hls-europaplus.cdnvideo.ru/europaplus/smil:eurptv2.smil/playlist.m3u8?md5=l7AOO5U6g-KLHOd_TLrSkg&e=1621419707&zoid=web
 # https://ad-hls-europaplus.cdnvideo.ru/europaplus/smil:eurptv2.smil/playlist.m3u8?md5=0MpuXSM_UfGmp4o-OB-H-g&e=1618329280&zoid=web
 
+### YouTube Music (Live 24/7)
 #EXTINF:0 group-title="music" tvg-id="cafemusic" tvg-logo="https://yt3.ggpht.com/a/AATXAJw0bAZxa07czhl_qojz4tpyht9RaD1tTdR9hqeqMw=s88-c-k-c0x00ffffff-no-rj",Rainy Jazz
 #EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=DSGyEsJ17cI
-# plugin://plugin.video.youtube/play/?video_id=DSGyEsJ17cI
+plugin://plugin.video.youtube/play/?incognito=true&video_id=DSGyEsJ17cI
 
 # Chill Lounge: Night Jazz Piano with Fireplace Sounds - Smooth Jazz Music for Good Mood
-#EXTVLCOPT:http-referrer=https://youtu.be/RzOQ6SkGKZk
 #EXTINF:0 group-title="music" tvg-id="cafemusic" tvg-logo="https://yt3.ggpht.com/a/AATXAJw0bAZxa07czhl_qojz4tpyht9RaD1tTdR9hqeqMw=s88-c-k-c0x00ffffff-no-rj",Chill Lounge
-# plugin://plugin.video.youtube/play/?video_id=IcmTp5vjfEw
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=IcmTp5vjfEw
+plugin://plugin.video.youtube/play/?incognito=true&video_id=IcmTp5vjfEw
 
+# Relaxing Jazz Piano With Fireplace - Slow Cafe Jazz Piano For Sleep, Study
+#EXTINF:0 group-title="music" tvg-id="cafemusic" tvg-logo="https://yt3.ggpht.com/a/AATXAJw0bAZxa07czhl_qojz4tpyht9RaD1tTdR9hqeqMw=s88-c-k-c0x00ffffff-no-rj",Relaxing Jazz Piano With Fireplace
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=JKg6ejN_57A
+plugin://plugin.video.youtube/play/?incognito=true&video_id=JKg6ejN_57A
 
 ### Radio
 ###
