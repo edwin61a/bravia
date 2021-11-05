@@ -12,7 +12,9 @@ https://edge1.1internet.tv/dash-live11/streams/1tv/1tvdash1.mpd
 # /storage/emulated/0/Downloads/iptv/channels/ru03/01.perviy_HD.00.m3u8
 
 #EXTINF:0 group-title="Россия" tvg-id="317" tvg-logo="https://iptvx.one/icn/rossia1.png",Россия 1
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist.m3u8
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rhd.smil/variant.m3u8
+# http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r1.smil/variant.m3u8
+# http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist.m3u8
 # https://a1566400114-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
 # https://a3569456481-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
 # https://www.youtube.com/watch?v=FCqPCFMS860
@@ -21,6 +23,7 @@ http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist.m3u8
 #EXTINF:0 group-title="Россия" tvg-id="447" tvg-logo="http://spastv.ru/wp-content/uploads/2018/07/logo-1.png",Спас ТВ
 #EXTVLCOPT:http-referrer=http://spastv.ru/
 https://mediavitrina6.cdn.gblnet.ru/dash-live1/streams/spas/spas.mpd
+# https://spas-live-megafon.mediavitrina.ru/dash-live1/streams/spas/spas-frag10m-audio-1-20210908T102337_000933550.mp4
 # https://mediavitrina6.cdn.gblnet.ru/dash-live1/streams/spas/spas-frag10m-audio-1-20210908T102337_000399449.mp4
 # https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
 # http://spastv.ru/playlist.m3u8
@@ -43,7 +46,8 @@ http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/variant.m3u8
 # https://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8, https://cl-1b25e6e4.gcdn.co/hls/russia_24/playlist.m3u8
 # https://www.youtube.com/watch?v=8T9SFZDP60Q
 #EXTINF:0 group-title="Россия" tvg-id="187" tvg-logo="https://iptvx.one/icn/rossia-k.png",Россия Культура
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rk.smil/variant.m3u8
+http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_k/playlist.m3u8
+# http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rk.smil/variant.m3u8
 # http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rk.smil/playlist.m3u8
 # https://a1566400114-s26881.cdn.ngenix.net/live/smil:rk.smil/variant.m3u8
 #EXTINF:0 group-title="Россия" tvg-id="1683" tvg-logo="https://iptvx.one/icn/rossia24.png",Россия 24
@@ -214,7 +218,8 @@ plugin://plugin.video.youtube/play/?video_id=8T9SFZDP60Q
 ## https://live-topspb.cdnvideo.ru/topspb/topspb.smil/playlist.m3u8  ## 403 Forbidden
 #EXTINF:0 group-title="Россия" tvg-id="1398" tvg-logo="https://static.piter.tv/img/lentv/lentv24_logo_white-h40.png",ЛенТВ24
 #EXTVLCOPT:http-referrer=https://47channel.ru/on_air/
-https://lvms01.inmedis.ru:4443/videowhisper/ngrp:47channel_live_broadcast.stream_all/playlist.m3u8
+# https://bl.rutube.ru/livestream/dd022de9cc6c8af89409513fa0a6117a/index.m3u8?s=dTSGq0xiGzkphpSZnmBduQ&e=1635851599
+# https://lvms01.inmedis.ru:4443/videowhisper/ngrp:47channel_live_broadcast.stream_all/playlist.m3u8
 # https://ok.ru/video/1436608962297
 # https://ok.ru/videoembed/1436608962297?nochat=1
 # https://i.mycdn.me/videoPreview?mid=1436608962297&type=37&tkn=KWBwhB8jllUspYNrSQDnEafQQ88&fn=external_8
