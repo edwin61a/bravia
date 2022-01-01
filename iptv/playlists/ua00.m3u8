@@ -1,0 +1,6 @@
+#EXTM3U
+## tvguide: http://programtv.ru/xlmtv.xml.gz
+
+#EXTINF:0 group-title="" tvg-id="" tvg-logo="https://cdn.kanalukraina.tv/img/favicon/android-icon-192x192.png",Канал Україна
+#EXTVLCOPT:http-referrer=https://kanalukraina.tv/
+
