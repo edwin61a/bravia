@@ -1,0 +1,360 @@
+#EXTM3U
+## tvguide: https://download.teleguide.info/download/new3/xmltv.xml
+
+#EXTINF:0 tvg-id="1" tvg-logo="https://epg.iptvx.one/icn/pervyj.png" group-title="Россия",Первый канал
+#EXTVLCOPT:http-referrer=https://www.1tv.ru/live
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.is_realtime_stream=true
+https://edge1.1internet.tv/dash-live11/streams/1tv/1tvdash1.mpd
+
+#EXTINF:0 tvg-id="2" tvg-logo="https://iptvx.one/icn/rossia1.png" group-title="Россия",Россия 1
+https://s27836.cdn.ngenix.net/hls2/russia_hd/playlist.m3u8
+# http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rhd.smil/variant.m3u8
+
+#EXTINF:0 tvg-id="222" tvg-logo="http://spastv.ru/wp-content/uploads/2018/07/logo-1.png" group-title="Россия",Спас ТВ
+#EXTVLCOPT:http-referrer=http://spastv.ru/
+https://spas.mediacdn.ru/cdn/spas/playlist.m3u8
+# #KODIPROP:inputstream=inputstream.adaptive
+# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+# #KODIPROP:inputstream.adaptive.is_realtime_stream=true
+# https://mediavitrina6.cdn.gblnet.ru/dash-live1/streams/spas/spas.mpd
+# #EXTVLCOPT:http-referrer=https://player.mediavitrina.ru/spas_v2/spas/smotrim_web/player.html
+# #KODIPROP:inputstream=inputstream.adaptive
+# #KODIPROP:inputstream.adaptive.manifest_type=mpd
+# #KODIPROP:inputstream.adaptive.is_realtime_stream=true
+# https://edge02d.mediavitrina.ru/dash-live1/streams/spas/spas-master-spd10.mpd
+# https://mobdrm.mediavitrina.ru/dash-live1/streams/spas/spas-master-spd10.mpd?cdn=https%3A%2F%2Fedge02r.mediavitrina.ru&token=v2.POrFbgRqZZEQAsAsJGLFQIE_dHBu2q-hGvor1oimTo8.KwdD9z_AZAEdp43p3Ihzj_2UeoGFSSn2VumOo_oBEuU.1636939326.5704e9811fd323a44ad12980ff306bd3
+
+#EXTINF:0 tvg-id="300006" tvg-logo="https://tv-soyuz.ru/static/img/logo.png" group-title="Россия",Союз
+#EXTVLCOPT:http-referrer=https://playercdn.cdnvideo.ru/aloha/players/tvsoyuz_player.html
+https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
+# #EXTVLCOPT:http-referrer=https://tv-soyuz.ru/tvprogramma
+# #KODIPROP:inputstream=inputstream.adaptive
+# #KODIPROP:inputstream.adaptive.manifest_type=hls
+# #KODIPROP:inputstream.adaptive.mime_type=application/vnd.apple.mpegurl
+# #EXT-X-STREAM-INF:BANDWIDTH=2500000,RESOLUTION=1024x576,CODECS="avc1.4d0028,mp4a.40.34"
+# https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/chunklist.m3u8?hls_proxy_host=pub1.rtmp.s01.l.tvsoyuz
+
+#EXTINF:0 tvg-id="400001" tvg-logo="https://iptvx.one/icn/moya-planeta.png",Моя Планета
+#EXTVLCOPT:http-referrer=https://moya-planeta.ru/
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/variant.m3u8
+
+#EXTINF:0 tvg-id="5" tvg-logo="https://iptvx.one/icn/rossia-k.png",Россия Культура
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rk.smil/variant.m3u8
+# http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_k/playlist.m3u8
+# https://s27836.cdn.ngenix.net/hls/russia_k/playlist.m3u8
+
+#EXTINF:0 tvg-id="676" tvg-logo="https://iptvx.one/icn/rossia24.png",Россия 24
+#EXTVLCOPT:http-referrer=https://player.vgtrk.com/iframe/live/id/21/showZoomBtn/false/isPlay/true/mute/true/sid/smotrim_r24/
+http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist.m3u8
+# http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/variant.m3u8
+# https://s27836.cdn.ngenix.net/hls/russia_24/playlist.m3u8
+
+#EXTINF:0 tvg-id="676" tvg-logo="https://iptvx.one/icn/rossia24.png",Россия 24
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=T3pYbzFrnQU
+
+#EXTINF:0 tvg-id="1775" tvg-logo="https://iptvx.one/icn/rtr-planeta.png" tvg-shift="-3",РТР-Планета
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/variant.m3u8
+# https://s27836.cdn.ngenix.net/live/smil:rtrp.smil/playlist.m3u8
+
+#EXTINF:0 tvg-id="106" tvg-logo="https://iptvx.one/icn/moskva-24.png",Москва 24
+#EXTVLCOPT:http-referrer=https://player.vgtrk.com/iframe/live/id/1661/showZoomBtn/false/isPlay/true/mute/true/sid/smotrim/
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:m24.smil/variant.m3u8
+# https://s27836.cdn.ngenix.net/hls/moscow_24/playlist.m3u8
+
+# НТВ. Прямой эфир
+# Прямой эфир телеканала НТВ. Новости, передачи, сериалы и фильмы. Для спонсоров канала — эфир в HD качестве с перемоткой до 12 часов. https://www.youtube.com/...
+# https://i.ytimg.com/vi/ownZUMKmM4c/maxresdefault_live.jpg
+# Started streaming on Apr 16, 2021
+#EXTINF:0 tvg-id="4" tvg-logo="https://img2.ntv.ru/img/ntv_air.jpg" group-title="НТВ",НТВ
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=ownZUMKmM4c
+plugin://plugin.video.youtube/play/?video_id=ownZUMKmM4c
+
+#EXTINF:0 tvg-id="4" tvg-logo="https://img2.ntv.ru/img/ntv_air.jpg" group-title="НТВ",НТВ
+#EXTVLCOPT:http-referrer=https://www.ntv.ru/air/ntv/
+# https://mob3-ntv.cdnvideo.ru/ntv3/smil:ntvair003_hd.smil/playlist.m3u8?e=1637530809&md5=LPjaUA_4MrPnsewS3STCGQ&DVR
+
+#EXTINF:0 tvg-id="2215" tvg-logo="https://img2.ntv.ru/home/news/20180314/ntv_show_sno.png" group-title="НТВ",НТВ Сериал
+#EXTVLCOPT:http-referrer=https://www.ntv.ru/air/ntvseries/
+# https://mob3-ntv.cdnvideo.ru/ntv/smil:ntvair11.smil/playlist.m3u8?e=1637531075&md5=5hYq58UOttsPRDBCEWe47A
+
+#EXTINF:0 tvg-id="2216" tvg-logo="https://img2.ntv.ru/home/news/20180314/ntv_style_sno.png" group-title="НТВ",НТВ Стиль
+#EXTVLCOPT:http-referrer=https://www.ntv.ru/air/ntvstyle/
+# https://mob3-ntv.cdnvideo.ru/ntv/smil:ntvair12.smil/playlist.m3u8?e=1637531150&md5=eRw0gyHi4gPRVZZ3bgLF1Q
+
+#EXTINF:0 tvg-id="2214" tvg-logo="https://img2.ntv.ru/home/news/20180314/ntv_law_sno.png" group-title="НТВ",НТВ Право
+#EXTVLCOPT:http-referrer=https://www.ntv.ru/air/ntvlaw/
+# https://mob3-ntv.cdnvideo.ru/ntv/smil:ntvair13.smil/playlist.m3u8?e=1637531242&md5=6D_aZ8R0_apebKZerMjSIA
+
+# https://ren.tv/apple-touch-icon.png
+#EXTINF:0 tvg-id="103" tvg-logo="https://iptvx.one/icn/rentv.png" group-title="Обо всем",РЕН ТВ
+#EXTVLCOPT:http-referrer=https://ren.tv/
+
+# ДОКУМЕНТАЛЬНЫЕ ПРОЕКТЫ | LIVE
+# ✔ Подписаться на канал: https://www.youtube.com/c/rentvdoc?sub_confirmation=1Истории о том, как всё устроено на самом деле. Программа ищет ответы на простые ...
+# https://www.youtube.com/watch?v=nu1i5iLULD0
+# https://i.ytimg.com/vi/nu1i5iLULD0/maxresdefault_live.jpg
+# Документальный спецпроект
+#EXTINF:0 tvg-id="0" tvg-logo="",Документальный спецпроект
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=nu1i5iLULD0
+plugin://plugin.video.youtube/play/?incognito=true&video_id=nu1i5iLULD0
+
+#EXTINF:0 tvg-id="104" tvg-logo="https://epg.iptvx.one/icn/sts.png" group-title="Обо всем",СТС
+#EXTVLCOPT:http-referrer=https://www.ctc.ru/
+#EXTVLCOPT:http-user-agent=smartlabs
+
+#EXTINF:0 tvg-id="102" tvg-logo="https://iptvx.one/icn/domashny.png" group-title="Обо всем",Домашний
+#EXTVLCOPT:http-referrer=https://domashniy.ru/online/
+#EXTVLCOPT:http-user-agent=smartlabs
+
+#EXTINF:0 tvg-id="2338" tvg-logo="https://iptvx.one/icn/super.png" group-title="Обо всем",Супер
+#EXTVLCOPT:http-user-agent=smartlabs
+
+#EXTINF:0 tvg-id="101" tvg-logo="https://epg.iptvx.one/icn/tnt.png" group-title="Обо всем",ТНТ
+#EXTVLCOPT:http-user-agent=smartlabs
+
+#EXTINF:0 tvg-id="2068" tvg-logo="https://epg.iptvx.one/icn/che.png" group-title="Развлечения",Че!
+#EXTVLCOPT:http-user-agent=smartlabs
+
+#EXTINF:0 tvg-id="3" tvg-logo="https://static.tvc.ru/assets/img/logo.png?v=135" group-title="Обо всем",ТВЦ
+#EXTVLCOPT:http-referrer=https://www.tvc.ru/channel/onair
+
+#EXTINF:0 tvg-id="105" tvg-logo="https://iptvx.one/icn/tv3.png" group-title="Обо всем",ТВ-3
+#EXTVLCOPT:http-referrer=https://tv3.ru/
+
+#EXTINF:0 tvg-id="330" tvg-logo="https://iptvx.one/icn/zvezda.png" group-title="Обо всем",Звезда
+https://tvchannelstream0.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
+
+###
+#EXTINF:0 group-title="Мир ТВ",
+#EXTVLCOPT:http-referrer=http://www.mirtv.ru/
+#EXTINF:0 tvg-id="100010" tvg-logo="https://iptvx.one/icn/mir.png" group-title="Мир ТВ",Мир HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://iptvx.one/icn/mir.png" tvg-shift="-2" group-title="Мир ТВ",Мир (+2)
+# http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv2_2500/playlist.m3u8
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://iptvx.one/icn/mir.png" tvg-shift="-3" group-title="Мир ТВ",Мир (+3)
+# http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8
+
+#EXTINF:0 tvg-id="300133" tvg-logo="https://iptvx.one/icn/mir-premium.png" group-title="Мир ТВ",Мир Premium HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+
+# МИР 24 • http://mir24.tv
+#EXTINF:0 tvg-id="400009" tvg-logo="https://iptvx.one/icn/mir24.png" group-title="Мир ТВ",Мир 24 HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+
+# Прямой эфир телеканала МИР 24. Последние новости, главные события в стране и мире. 
+# Started streaming on Dec 20, 2021
+#EXTINF:0 tvg-id="400009" tvg-logo="https://iptvx.one/icn/mir24.png" group-title="Мир ТВ",Мир 24 YouTube
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=1a2KSZf2KLk
+plugin://plugin.video.youtube/play/?incognito=true&video_id=1a2KSZf2KLk
+
+###
+#EXTINF:0 tvg-id="2111" tvg-logo="https://iptvx.one/icn/kaleydoskop.png" group-title="Россия",Калейдоскоп ТВ
+#EXTVLCOPT:http-referrer=http://www.kaleidoskoptv.tv/online/
+https://live-1.otcnet.ru/kaleidoskop/playlist.m3u8
+
+###
+#EXTINF:0 tvg-id="1684" tvg-logo="https://raw.githubusercontent.com/edwin61a/bravia/master/iptv/logos/echotv.png",Эхо ТВ
+#EXTVLCOPT:http-referrer=https://echotv.ru/
+http://live2-echotv.cdnvideo.ru/playlist.m3u8
+
+
+#EXTINF:0 tvg-id="108" tvg-logo="https://www.u-tv.ru/favicons/apple-touch-icon.png",телеканал ю
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=RfUa8Rx0aK8
+plugin://plugin.video.youtube/play/?video_id=RfUa8Rx0aK8
+
+
+#EXTINF:0 tvg-id="1429" tvg-logo="https://tnv.ru/local/static/favicons/android-icon-192x192.png",ТНВ Планета
+#EXTVLCOPT:http-referrer=https://tnv.ru/online/?ID=3609
+https://tnv.bonus-tv.ru/cdn/tnvplanet/playlist.m3u8
+
+# Фильмы и Сериалы Студии Квартал 95
+# http-referrer=https://kvartal95.com/
+# Сериалы Сваты и Байки Митяя - Все серии подряд
+# Started streaming on Apr 11, 2020
+#EXTINF:0 tvg-id="0" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRxIkAOF9Fh_HoSslymQBAi7u7mPGhiSCDS9O8sgg=s256-c-k-c0x00ffffff-no-rj",Сериалы Сваты и Байки Митяя - Все серии подряд
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=ThbXM1-Wfyw
+plugin://plugin.video.youtube/play/?incognito=true&video_id=ThbXM1-Wfyw
+
+# https://ren.tv/
+# СОЛДАТЫ live
+# Started streaming on Dec 21, 2021
+# https://i.ytimg.com/vi/xIlwHWTjYq0/maxresdefault_live.jpg
+#EXTINF:0 tvg-id="0" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLSlj9_qjkJPRW2DfSPMes5AY5hFSEeZbETy6WDmoQ=s256-c-k-c0x00ffffff-no-rj",СОЛДАТЫ  live
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=xIlwHWTjYq0
+plugin://plugin.video.youtube/play/?incognito=true&video_id=xIlwHWTjYq0
+
+#EXTINF:0 tvg-id="300025" tvg-logo="",Феникс+ Кино
+
+#EXTINF:0 tvg-id="1000" tvg-logo="",ОТР
+
+### News / Weather
+#EXTINF:0 tvg-id="2290" tvg-logo="https://iptvx.one/icn/izvestia.png",Известия
+#EXTVLCOPT:http-referrer=https://iz.ru/
+http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+
+# Started streaming on Apr 6, 2020
+# https://i.ytimg.com/vi/i_OzppNpK5U/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0qf98yrWVI165tE2cEDNPKZsmLQ
+# https://yt3.ggpht.com/ytc/AKedOLSzYGBQc0qlo5pW9-6XfckLX8myRVo6P_SNErRi3Q=s88-c-k-c0x00ffffff-no-rj
+# https://yt3.ggpht.com/VTjhG1dQcDuQ2EFfzBS7FRd86vYEaDlawie_trq_QcSfNnnbGe8GvFD1XHPYtBTMChvy2IwuMA=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj
+#EXTINF:0 tvg-id="0" tvg-logo="https://iptvx.one/icn/nastoiaschee-vremia.png",Настоящее Время
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=i_OzppNpK5U
+plugin://plugin.video.youtube/play/?incognito=true&video_id=i_OzppNpK5U
+
+#EXTINF:0 tvg-id="208" tvg-logo="https://iptvx.one/icn/euronews-en.png",Евроновости
+#EXTVLCOPT:http-referrer=https://ru.euronews.com/live
+https://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
+
+#EXTINF:0 tvg-id="208" tvg-logo="https://i.ytimg.com/an/FzJjgVicCtFxJ5B0P_ei8A/featured_channel.jpg",ТВ-канала Euronews
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=YG0lEwYLaxk
+# Started streaming on Oct 6, 2021
+plugin://plugin.video.youtube/play/?incognito=true&video_id=YG0lEwYLaxk
+
+# https://www.rbc.ru/
+# https://online-video.rbc.ru/online/rbctvhd_int_224p/index.m3u8?e=e8&t=YO3lhg
+# Started streaming on Dec 30, 2021
+#EXTINF:0 tvg-id="326" tvg-logo="https://s.rbk.ru/v10_rbcnews_static/common/common-10.8.84/images/android-chrome-192x192.png",РБК. Последние новости России и мира. Новости сегодня
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=8P4_Q-S8zXk
+plugin://plugin.video.youtube/play/?incognito=true&video_id=8P4_Q-S8zXk
+
+#EXTINF:0 tvg-id="221" tvg-logo="https://epg.iptvx.one/icn/cnn.png" group-title="News",CNN
+# https://cnnlive.warnermediacdn.com/hls/live/2011591/PROD-cnnlive0/de/master.m3u8?__b__=650
+
+#EXTINF:0 tvg-id="739" tvg-logo="http://tele.smotr.online/img/meteo.jpg" group-title="Погода;Россия",Первый метео
+#EXTVLCOPT:http-referrer=https://www.meteo-tv.ru/tv/online/
+# https://live-meteotv.cdnvideo.ru/meteotv/meteotv/playlist.m3u8
+
+### Regional
+#EXTINF:0 tvg-chno="701" group-title="Regional",Regional
+
+## Sankt-Peterburg; Санкт-Петербург
+## https://topspb.tv/; https://topspb.tv/static/img/logo.svg
+#EXTINF:0 tvg-id="1307" tvg-logo="spb.png",Санкт-Петербург
+
+#EXTINF:0 tvg-id="1874" tvg-logo="https://static.piter.tv/img/lentv/lentv24_logo_white-h40.png",ЛенТВ24
+#EXTVLCOPT:http-referrer=https://47channel.ru/on_air/
+
+#EXTINF:0 tvg-id="269" tvg-logo="https://iptvx.one/icn/78.png",78 канал
+
+## Mordovia
+#EXTINF:0 tvg-chno="711" group-title="Regional",Mordovia
+#EXTINF:0 tvg-id="0" tvg-logo="https://teleon.tv/images/logos/ntm_hd.png" group-title="Кино",HTM HD
+http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
+
+## Yamal
+#EXTINF:0 tvg-id="172" tvg-logo="https://www.fulltv24.com/files/image/yamal_region_ru_tv.png",Ямал ТВ
+http://live-yamalregion.cdnvideo.ru/yamalregion_mc/yamalregion_mc.smil/playlist.m3u8
+
+### Fashion
+#EXTINF:0 tvg-id="100017" tvg-logo="https://duckduckgo.com/i/8f2f60ac.jpg" group-title="мода;Россия",World Fashion Channel Russia
+https://wfcrus.mediacdn.ru/cdn/wfcrus/playlist.m3u8
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://duckduckgo.com/i/8f2f60ac.jpg" group-title="мода;Россия",World Fashion Channel International
+https://wfcint.mediacdn.ru/cdn/wfcint/playlist.m3u8
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/id-fashion.png" group-title="мода;Украина",ID Fashion TV
+http://idfashion-hls3.cosmonova.net.ua/hls/idfashion_ua_hi/index.m3u8
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/hdfashion-lifestyle.png" group-title="мода;Украина;Германия",HD Fashion & Lifestyle
+http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8
+
+#EXTINF:0 tvg-id="1282" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png" group-title="мода",FashionTV
+#EXTVLCOPT:http-referrer=https://www.fashiontv.com/
+https://fash1043.cloudycdn.services/slive/_definst_/ftv_pg16_adaptive.smil/playlist.m3u8
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png" group-title="мода",FashionTV International
+#EXTVLCOPT:http-referrer=https://www.fashiontv.com/
+https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_pg13_zw9_27065_ftv_pg13_196_hls.smil/playlist.m3u8
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png" group-title="мода",FashionTV Paris
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png" group-title="мода",Fashion TV USA
+#EXTVLCOPT:http-referrer=https://www.fashiontv.com/
+https://fash2043.cloudycdn.services/slive/_definst_/ftv_ftv_gmt_-5_qko_43090_default_1225_hls.smil/playlist.m3u8
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png" group-title="мода",Fashion TV Asia
+#EXTVLCOPT:http-referrer=https://www.fashiontv.com/
+https://fash2043.cloudycdn.services/slive/_definst_/ftv_ftv_asia_ada_xiv_42149_default_137_hls.smil/playlist.m3u8
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://epg.iptvx.one/icn/fashion-tv.png" group-title="мода",Fashion TV Africa 2
+#EXTVLCOPT:http-referrer=https://www.fashiontv.com/
+# https://fash2043.cloudycdn.services/slive/_definst_/ftv_ftv_africa_2_s6g_43071_default_1204_hls.smil/playlist.m3u8
+
+#EXTINF:0 tvg-id="0" tvg-logo="https://www.fulltv24.com/files/image/global-fashion-channel-us.png" group-title="мода",Global Fashion Channel
+https://vcngfc1.teleosmedia.com/stream/globalfashionchannel/globalfashionchannel/playlist.m3u8
+
+### МузСоюз
+#EXTINF:0 tvg-id="2415" tvg-logo="https://epg.iptvx.one/icn/muzsoyuz.png",МузСоюз
+#EXTVLCOPT:http-referrer=
+# https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
+
+### YouTube Music (Live 24/7)
+# https://www.youtube.com/s/desktop/18069be1/img/favicon_144x144.png
+
+# Relaxing Jazz Piano With Fireplace - Slow Cafe Jazz Piano For Sleep, Study
+#EXTINF:0 tvg-id="cafemusic" tvg-logo="https://yt3.ggpht.com/a/AATXAJw0bAZxa07czhl_qojz4tpyht9RaD1tTdR9hqeqMw=s88-c-k-c0x00ffffff-no-rj" group-title="music",Relaxing Jazz Piano With Fireplace
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=JKg6ejN_57A
+plugin://plugin.video.youtube/play/?incognito=true&video_id=JKg6ejN_57A
+
+# Chill Lounge: Night Jazz Piano with Fireplace Sounds - Smooth Jazz Music for Good Mood
+#EXTINF:0 tvg-id="cafemusic" tvg-logo="https://yt3.ggpht.com/a/AATXAJw0bAZxa07czhl_qojz4tpyht9RaD1tTdR9hqeqMw=s88-c-k-c0x00ffffff-no-rj" group-title="music",Chill Lounge
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=IcmTp5vjfEw
+plugin://plugin.video.youtube/play/?incognito=true&video_id=IcmTp5vjfEw
+
+#EXTINF:0 tvg-id="cafemusic" tvg-logo="https://yt3.ggpht.com/a/AATXAJw0bAZxa07czhl_qojz4tpyht9RaD1tTdR9hqeqMw=s88-c-k-c0x00ffffff-no-rj" group-title="music",Rainy Jazz
+#EXTVLCOPT:http-referrer=https://www.youtube.com/watch?v=DSGyEsJ17cI
+plugin://plugin.video.youtube/play/?incognito=true&video_id=DSGyEsJ17cI
+
+
+### Radio
+#EXTGRP:Россия;Русский;радиостанция
+#EXTINF:0 radio="true" tvg-chno="901" group-title="Россия;Русский;радиостанция",радиостанция
+
+###
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://europaplus.ru/media/logotype.54df8333.jpg",Европа Плюс
+.
+
+# Санкт-Петербург
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://europaplus.ru/media/logotype.54df8333.jpg",Европа Плюс
+#EXTVLCOPT:http-referrer=https://europaplus.ru
+https://hls-01-regions.emgsound.ru/11_spb/playlist.m3u8
+
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://europaplus.ru/media/logotype.54df8333.jpg",Европа Плюс / TOP 40
+https://hls-01-europaplus-top40.emgsound.ru/21/playlist.m3u8
+
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://europaplus.ru/media/logotype.54df8333.jpg",Европа Плюс / Party
+https://hls-01-europaplus-party.emgsound.ru/22/playlist.m3u8
+
+###
+#EXTINF:0 radio="true" tvg-chno="911" group-title="Россия;Русский;радиостанция",радиостанция
+
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://retrofm.ru/online/multiplayer/core/ext/logo_rfm.png",Ретро FM
+#EXTVLCOPT:http-referrer=http://retrofm.ru/
+.
+
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://retrofm.ru/online/multiplayer/core/ext/logo_rfm.png",Ретро FM
+https://hls-01-retro.emgsound.ru/12/playlist.m3u8
+
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://retrofm.ru/online/multiplayer/core/ext/logo_rfm_70.png?v=2",Ретро FM 70e
+https://hls-01-retro70.emgsound.ru/1/playlist.m3u8
+# https://retro70.hostingradio.ru:8025/retro70-128.mp3
+
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://retrofm.ru/online/multiplayer/core/ext/logo_rfm_80.png?v=2",Ретро FM 80e
+https://retro80.hostingradio.ru:8025/retro80-128.mp3
+
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://retrofm.ru/online/multiplayer/core/ext/logo_rfm_90.png?v=2",Ретро FM 90e
+https://retro90.hostingradio.ru:8025/retro90-128.mp3
+
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://retrofm.ru/online/multiplayer/core/ext/logo_rfm_party.png?v=2",Вечеринка Ретро FM
+https://hls-01-retro-vecherinka.emgsound.ru/20/playlist.m3u8
+
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://retrofm.ru/online/multiplayer/core/ext/logo_rfm_sanremo.png?v=2",Ретро FM Сан-Ремо
+https://hls-01-sanremo.emgsound.ru/5/playlist.m3u8
+
+###
+#EXTINF:0 radio="true" tgv-id="0" tvg-logo="https://radiomir.fm/favicon/apple-touch-icon.png",Радио МИР
+#EXTVLCOPT:http-referrer=https://radiomir.fm/
+http://icecast-mirtv.cdnvideo.ru/radio_mir128
